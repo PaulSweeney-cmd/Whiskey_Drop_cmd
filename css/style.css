@@ -21,6 +21,34 @@ body {
     position: relative;
 }
 
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.quotes-container{}
+
+.features-container{}
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #d2a655;
+}
+
+.block-divider--orange {
+
+    background-color: #d2a655;
+}
+
+.block-divider--short {
+    width: 35px;
+}
+
 .jumbotron {
     background-color: transparent;
 }
@@ -29,4 +57,16 @@ body {
     color: white;
     font-weight: bold;
     margin-bottom: 30px;
+}
+
+.jumborton .lead {
+    margin: 25px 0;
+    color: #a7a7a7;
+}
+
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
 }
