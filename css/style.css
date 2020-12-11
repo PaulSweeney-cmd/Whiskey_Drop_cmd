@@ -26,6 +26,7 @@ body {
     top: 0;
     left: 0;
     height: 100%;
+    width: 100%;
     background-color: rgba(0,0,0,0.5);
 }
 
@@ -59,9 +60,9 @@ body {
     margin-bottom: 30px;
 }
 
-.jumborton .lead {
-    margin: 25px 0;
+.jumbotron .lead {
     color: #a7a7a7;
+    margin: 25px 0;
 }
 
 
@@ -70,3 +71,27 @@ body {
     font-style: italic;
     color: #d0d0d0;
 }
+
+/*Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--gold {
+    color: white;
+    background-color: #d2a655;
+    border-color: #d2a655;
+    
+}
+
+.btn--gold:hover,
+.btn--gold:active,
+.btn--gold:focus,
+.btn--gold:active:focus {
+    background-color: #9c6f1c;
+    border-color: #d2a655;
+}
+
