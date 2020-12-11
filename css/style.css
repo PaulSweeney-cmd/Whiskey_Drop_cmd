@@ -2,13 +2,22 @@ body {
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.alert-container{}
 
-.callout-container{
+
+
+.callout-container {
+
     height: 100vh;
+
+    background: url('../images/guy-image.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
 }
-
-.features-container{}
-
-
-.quotes-container{}
