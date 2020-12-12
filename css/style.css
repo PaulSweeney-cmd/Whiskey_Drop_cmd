@@ -30,9 +30,7 @@ body {
     background-color: rgba(0,0,0,0.5);
 }
 
-.quotes-container{}
 
-.features-container{}
 
 .block-divider {
     width: 75px;
@@ -41,7 +39,7 @@ body {
     background-color: #d2a655;
 }
 
-.block-divider--orange {
+.block-divider--gold {
 
     background-color: #d2a655;
 }
@@ -50,8 +48,7 @@ body {
     width: 35px;
 }
 
-
-/*navbar styling*/
+/*navbar-styling*/
 
 .navalert-container {
     position: absolute;
@@ -59,10 +56,29 @@ body {
     left: 0;
     padding-left: 0;
     padding-right: 0;
+    z-index: 1;
 }
 
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.25);
+}
 
-/*jumbotron styling*/
+.navbar-brand {
+    font-weight: bold;
+
+}
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+/*jumbotron-styling*/
 
 .jumbotron {
     background-color: transparent;
