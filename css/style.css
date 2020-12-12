@@ -2,8 +2,25 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.container-wrapper{}
 
+.container-wrapper--gold {
+    background-color: #d2a655;
+    color: white;
+}
 
+.alert-container .col-12{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;
+    background-color: #f3be22;
+    border-color: #f3be22;
+}
 
 .callout-container {
     height: 100vh;
@@ -30,7 +47,19 @@ body {
     background-color: rgba(0,0,0,0.5);
 }
 
+/*page headers*/
 
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+/*block dividers*/
 
 .block-divider {
     width: 75px;
@@ -46,7 +75,21 @@ body {
 
 .block-divider--short {
     width: 35px;
+    
 }
+
+.block-divider--white {
+    background-color: white;
+}
+
+/*content container styling*/
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+
 
 /*navbar-styling*/
 
@@ -77,6 +120,8 @@ body {
 .navbar .navbar-nav a {
     font-weight: bold;
 }
+
+
 
 /*jumbotron-styling*/
 
@@ -125,3 +170,12 @@ body {
     border-color: #d2a655;
 }
 
+.features {
+    text-align: center;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
