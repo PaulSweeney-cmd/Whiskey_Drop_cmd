@@ -50,6 +50,20 @@ body {
     width: 35px;
 }
 
+
+/*navbar styling*/
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+/*jumbotron styling*/
+
 .jumbotron {
     background-color: transparent;
 }
